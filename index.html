@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic Website</title>
+    <link rel="stylesheet" href="cssFile.css">
+
+</head>
+<body>
+    <!--navbar-->
+    <nav class="navbar">
+        <h1 class="logo">ADVENTURE</h1>
+        <ul class="navLinks">
+            <li class="active"><a href="#"></a>Home</li>
+            <li><a hre="#"></a>Tours</li>
+            <li><a href="#"></a>Explore</li>
+            <li><a href="#"></a>About</li>
+            <li class="ctn"><a href="#"></a>Contact</li>
+        </ul>
+        <img src="./image/AdventureWebstieImages/img/menu-btn.png"alt="" class="menu-btn">
+
+    </nav>
+    <header>
+        <div class="headerContent">
+            <h2>Explore The Coloroful World</h2>
+            <div class="line"></div>
+            <h1>A Wonderful Gift</h1>
+            <a href="#" class="ctn">Learn More</a>
+        </div>
+    </header>
+ <!--event-->
+
+ <section class="events">
+    
+    <div class="title">
+        <h1>Upcoming events</h1>
+        <div class="line"></div>
+    </div>
+
+    <div class="row">
+       
+        <div class="cols">
+            <img src="./image/AdventureWebstieImages/img/img1.png">
+            <h4>Everest Camp Trok</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis repudiandae optio fugit? Corporis modi totam vero, doloremque nemo nesciunt minus excepturi. Tenetur, cum. Provident dolorum blanditiis doloremque praesentium eligendi placeat!</p>
+            <a href="#" class="ctn">Learn Mores</a>
+        </div>
+
+        <div class="cols">
+            <img src="./image/AdventureWebstieImages/img/img2.png">
+            <h4>Walking holiday</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis repudiandae optio fugit? Corporis modi totam vero, doloremque nemo nesciunt minus excepturi. Tenetur, cum. Provident dolorum blanditiis doloremque praesentium eligendi placeat!</p>
+            <a href="#" class="ctn">Learn Mores</a>
+        </div>
+
+     </div>
+ </section>
+
+
+ <!---section 2 -->
+
+ <section class="explore">
+
+<div class="exploreContent">
+
+    <h1>EXPLORE THE WORLD</h1>
+    <p>Discover vibrant cultures, breathtaking landscapes, and hidden wonders as you embark on an unforgettable global adventure."</p>
+    <div class="line"></div>
+    <a href="#" class="ctn">Learn Mores</a>
+</div>
+
+</section>
+
+ <!---section 3 -->
+<section class="tours">
+<div class="row">
+
+    <div class="colContent">
+    <h1>UPCOMING TOURS & DESTINATION</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae voluptatem aspernatur pariatur, nisi porro ut expedita saepe veritatis, ab temporibus, sapiente odit ex in ullam distinctio mollitia modi harum exercitationem!</p>
+    <div class="line"></div>
+    
+   </div>
+
+   <div class="colImage">
+    <div class="imageGallery">
+        <img src="./image/AdventureWebstieImages/img/img1.png" alt="">
+        <img src="./image/AdventureWebstieImages/img/img2.png" alt="">
+        <img src="./image/AdventureWebstieImages/img/img3.png" alt="">
+        <img src="./image/AdventureWebstieImages/img/img4.png" alt="">
+        <img src="./image/AdventureWebstieImages/img/img5.png" alt="">
+        <img src="./image/AdventureWebstieImages/img/img6.png" alt="">
+    </div>
+
+   </div>
+
+
+</div>
+</section>
+
+<!-- section4 -->
+<section>
+<footer class="footer">
+    <p>
+        Designed and developed by Your Company. Bringing you innovative solutions with a focus on quality and performance
+    </p>
+    <p>Copyright &copy 2020 Ourdoor Adventure</p>
+</footer>
+</section>
+
+
+
+
+
+
+
+
+<script>
+    const menuBtn = document.querySelector('.menu-btn');
+    const navLinks = document.querySelector('.navLinks');
+
+    menuBtn.addEventListener('click', () => {
+        console.log('Menu button clicked'); // Debugging line
+        navLinks.classList.toggle('mobile-menu');
+    });
+</script>
+
+
+
+
+
+</body>
+</html>
